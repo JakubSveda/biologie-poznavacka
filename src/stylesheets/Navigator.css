@@ -1,19 +1,36 @@
+:root {
+    --border-size: 1px;
+    --nav-color: black;
+    --border-type: solid;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 
-    border: wheat 5px solid;
-    border-radius: 50px;
+    border: var(--nav-color) var(--border-size) var(--border-type);
+    border-radius: var(--border-radius);
 
 
-    background-color: wheat;
+    background-color: var(--nav-color);
 }
 
 .small-title {
     font-size: 90px;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 20px;
+}
+
+#title-spacing {
+    font-size: 90px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.small-title:hover {
+    color: darkgrey;
 }

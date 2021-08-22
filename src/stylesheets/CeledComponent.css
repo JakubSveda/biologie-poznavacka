@@ -1,9 +1,13 @@
+:root {
+    --celed-component-color: #001f3f;
+}
+
 .celed-component {
-    border: #001f3f 2px solid;
+    border: var(--celed-component-color) var(--border-size) var(--border-type);
     margin: 70px;
     padding: 30px;
-    border-radius: 50px;
-    background-color: #001f3f;
+    border-radius: var(--border-radius);
+    background-color: var(--celed-component-color);
     box-shadow: 10px 10px 5px 12px rgba(0, 0, 255, .2);
 }
 

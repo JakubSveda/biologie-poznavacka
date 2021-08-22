@@ -8,7 +8,7 @@ const Navigator = () => {
                 <Link className={'small-title'} to={'/'}>
                     POZNÁVAČKA
                 </Link>
-                <text className={'small-title'}>||</text>
+                <text id={'title-spacing'}>||</text>
                 <Link className={'small-title'} to={'/tester'}>
                     TESTER
                 </Link>

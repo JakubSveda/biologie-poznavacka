@@ -1,4 +1,3 @@
-import './App.css';
 import CelediList from "./components/CelediList";
 import {Route, Switch} from "react-router-dom";
 import Navigator from "./components/Navigator";
