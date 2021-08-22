@@ -1,0 +1,18 @@
+.title {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.jednodelozne-list {
+    background-color: sienna;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.dvoudelozne-list {
+    background-color: forestgreen;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+}

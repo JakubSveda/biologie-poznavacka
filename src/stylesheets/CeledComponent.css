@@ -1,0 +1,12 @@
+.celed-component {
+    border: #001f3f 2px solid;
+    margin: 70px;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: #001f3f;
+    box-shadow: 10px 10px 5px 12px rgba(0, 0, 255, .2);
+}
+
+.podceled-component {
+    padding-left: 50px;
+}
