@@ -1,6 +1,7 @@
 :root {
     --padding-bottom: 10px;
     --border-radius: 50px;
+    --margin: 30px;
 }
 
 .title {
@@ -13,11 +14,15 @@
     background-color: sienna;
     padding-bottom: var(--padding-bottom);
     border-radius: var(--border-radius);
+    margin: var(--margin);
 }
 
 .dvoudelozne-list {
     background-color: forestgreen;
     padding-bottom: var(--padding-bottom);
     border-radius: var(--border-radius);
+    margin-top: var(--margin);
+    margin-left: var(--margin);
+    margin-right: var(--margin);
     margin-bottom: 60px;
 }

@@ -1,6 +1,5 @@
 :root {
     --border-size: 1px;
-    --nav-color: black;
     --border-type: solid;
 }
 
@@ -10,27 +9,29 @@
     align-items: center;
     justify-content: space-evenly;
 
-    border: var(--nav-color) var(--border-size) var(--border-type);
+    border: var(--zastupce-card-color) var(--border-size) var(--border-type);
     border-radius: var(--border-radius);
 
 
-    background-color: var(--nav-color);
+    background-color: var(--zastupce-card-color);
+
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+
 }
 
 .small-title {
     font-size: 90px;
-    color: white;
+    color: var(--celed-component-color);
     text-decoration: none;
-    padding: 20px;
 }
 
 #title-spacing {
     font-size: 90px;
-    color: white;
+    color: var(--celed-component-color);
     text-decoration: none;
-    padding: 20px;
 }
 
 .small-title:hover {
-    color: darkgrey;
+    text-shadow: 1px 1px 2px black, 0 0 1em var(--main-background-color), 0 0 0.2em var(--main-background-color);
 }

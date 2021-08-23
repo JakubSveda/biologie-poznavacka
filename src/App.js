@@ -1,6 +1,7 @@
 import CelediList from "./components/CelediList";
 import {Route, Switch} from "react-router-dom";
 import Navigator from "./components/Navigator";
+import Tester from "./components/Tester";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
                     <CelediList/>
                 </Route>
                 <Route path={'/tester'}>
-
+                    <Tester/>
                 </Route>
             </Switch>
 

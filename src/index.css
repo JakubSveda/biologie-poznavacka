@@ -1,5 +1,9 @@
+:root {
+    --main-background-color: #FF851B;
+}
+
 body {
     font-family: "Comic Sans MS";
-    background-color: #FF851B;
+    background-color: var(--main-background-color);
     color: white;
 }

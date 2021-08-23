@@ -8,7 +8,7 @@ const Navigator = () => {
                 <Link className={'small-title'} to={'/'}>
                     POZNÁVAČKA
                 </Link>
-                <text id={'title-spacing'}>||</text>
+                <p style={{display: "inline-block"}} id={'title-spacing'}>||</p>
                 <Link className={'small-title'} to={'/tester'}>
                     TESTER
                 </Link>

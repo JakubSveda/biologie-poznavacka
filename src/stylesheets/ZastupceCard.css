@@ -1,0 +1,26 @@
+:root {
+    --zastupce-card-color: white;
+}
+
+.zastupce-card {
+    background-color: white;
+    color: var(--celed-component-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: var(--zastupce-card-color) var(--border-size) var(--border-type);
+    border-radius: var(--border-radius);
+    padding: 50px;
+    margin: 100px;
+}
+
+.image {
+    border: var(--celed-component-color) 8px var(--border-type);
+    border-radius: var(--border-radius);
+}
+
+.img-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
