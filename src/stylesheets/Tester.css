@@ -1,0 +1,33 @@
+.tester-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    background-color: var(--celed-component-color);
+    margin: 100px;
+    padding: 30px;
+    border-radius: var(--border-radius);
+}
+
+.element {
+    padding: 20px;
+    margin: 15px;
+    background-color: var(--celed-component-color);
+    color: white;
+}
+
+button {
+    border: white var(--border-size) var(--border-type);
+}
+
+input {
+    border: white var(--border-size) var(--border-type);
+}
+
+.controller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

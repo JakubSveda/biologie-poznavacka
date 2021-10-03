@@ -113,7 +113,7 @@ export const jednodelozneKrytosemenneRostliny =
             listy: "",
             zastupci: [
                 {jmenoRostliny: "lipnice luční", img: "https://upload.wikimedia.org/wikipedia/commons/6/68/Poa.pratensis.jpg"},
-                {jmenoRostliny: "srha laločnatá", img: "https://lh3.googleusercontent.com/proxy/IgvampG6_xDT5-vfZtwABgt7trrc59yMBTL65XCi6jLCSz2SluBhmikWP-6iXk_MS8AurbYm-KJV_kCWCvBAZMbtIWm0Pt_47H5f6vMdjyVLh6A1sNfdTTExDClCaVxCcNXYLkgfrPn_S5YhFPGxHZyGabxhXnZO33WkrViwd1p2TY9esFPNEjBdrHk"},
+                {jmenoRostliny: "srha laločnatá", img: "https://www.biolib.cz/IMG/GAL/BIG/210462.jpg"},
                 {jmenoRostliny: "psárka luční", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Alopecurus.pratensis.2.jpg/260px-Alopecurus.pratensis.2.jpg"},
                 {jmenoRostliny: "bojínek luční", img: "https://www.biolib.cz/IMG/GAL/BIG/311790.jpg"},
                 {jmenoRostliny: "jílek vytrvalý", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Lolium_perenne_TK_2021-06-26_3.jpg/258px-Lolium_perenne_TK_2021-06-26_3.jpg"},
@@ -121,7 +121,7 @@ export const jednodelozneKrytosemenneRostliny =
                 {jmenoRostliny: "rákos obecný", img: "https://pladias.cz/downloads//images/gallery/large/Phragmites_australis17.jpg"},
                 {jmenoRostliny: "pšenice obecná", img: "https://cit.vfu.cz/vegetabilie/plodiny/czech/Psenice_detail.jpg"},
                 {jmenoRostliny: "ječmen setý", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Escourgeon-Hordeum_vulgare_subsp._vulgare.jpg/1200px-Escourgeon-Hordeum_vulgare_subsp._vulgare.jpg"},
-                {jmenoRostliny: "žito seté", img: "https://lh3.googleusercontent.com/proxy/XRJVvb3khO4tXgLZw3scVUId5fcIMi7S6kYhkNAImVbIOxn2MiC3d9DwU0FC81tf61PAEd4PPYs6xMroMi-5XlFvZ-d-AD2PV0khQA"},
+                {jmenoRostliny: "žito seté", img: "https://www.saaten-union.cz/cache/images/A5E923D75EEFEF3434324CEA3C7FF413.jpg"},
                 {jmenoRostliny: "oves setý", img: "https://www.prirodopis.eu/mobil/soubory/image/ovessety.jpg"}
             ]
         }]

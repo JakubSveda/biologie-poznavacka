@@ -1,7 +1,10 @@
 import CelediList from "./components/CelediList";
 import {Route, Switch} from "react-router-dom";
 import Navigator from "./components/Navigator";
-import Tester from "./components/Tester";
+import {dvoudelozneKrytosemenneRostliny} from "./data/DvoudelozneKrytosemenneRostliny";
+import {jednodelozneKrytosemenneRostliny} from "./data/JednodelozneKrytosemenneRostliny";
+import {zastupci} from "./data/Zastupci";
+import Tester from './components/Tester';
 
 function App() {
     return (
@@ -9,13 +12,12 @@ function App() {
             <Navigator/>
             <Switch>
                 <Route path={'/'} exact>
-                    <CelediList/>
+                    <CelediList jednodelozneKrytosemenneRostliny={jednodelozneKrytosemenneRostliny} dvoudelozneKrytosemenneRostliny={dvoudelozneKrytosemenneRostliny}/>
                 </Route>
                 <Route path={'/tester'}>
-                    <Tester/>
+                    <Tester zastupci={zastupci}/>
                 </Route>
             </Switch>
-
         </div>
     )
 }
